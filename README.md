@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PRODIGY-WD-03
+
+PRODIGY-WD-03 is a web development project that includes various components and configurations to build a modern web application. This README provides an overview of the project structure and guidance on how to get started.
+
+## Project Structure
+
+The project is organized into the following directories and files:
+
+- `app`: This directory contains the main application code, including the entry point, page components, and routing configurations.
+- `components`: This directory holds reusable UI components used throughout the application, such as buttons, cards, and other UI elements.
+- `lib`: This directory contains utility functions, helper modules, and other supporting code.
+- `public`: This directory stores static assets like images, fonts, and icons.
+- `styles`: This directory holds global CSS styles and theme configurations.
+- `next.config.js`: The Next.js configuration file, which includes settings for the application.
+- `package.json`: The project's dependencies and scripts.
+- `tsconfig.json`: The TypeScript configuration file.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/KigoJomo/prodigy-wd-03.git
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**:
+   ```
+   cd prodigy-wd-03
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Start the development server**:
+   ```
+   npm run dev
+   ```
+   This will start the development server and open the application in your default web browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Explore the project structure**:
+   - Familiarize yourself with the directories and files in the project.
+   - Understand the purpose of each component and how they are used in the application.
+   - Review the configurations and settings in the `next.config.js` file.
 
-## Learn More
+5. **Customize and extend the project**:
+   - Add new components or modify existing ones to fit your specific requirements.
+   - Update the styles and theming to match your brand or design.
+   - Integrate additional features or functionality as needed.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you find any issues or have suggestions for improvements, feel free to open a new issue or submit a pull request. We welcome contributions from the community to help make this project better.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
